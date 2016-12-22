@@ -1,0 +1,57 @@
+<include file="Public/min-header" />
+<div class="wrapper">
+     <include file="Public/breadcrumb"/>
+     <section class="content">
+		<div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="info-box">
+                <span class="info-box-icon bg-aqua"><i class="fa fa-bell"></i></span>
+                <div class="info-box-content">
+                  <span class="info-box-text">待处理订单</span>
+                  <span class="info-box-number">{$count.handle_order}</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="info-box">
+                <span class="info-box-icon bg-green"><i class="fa fa-flag-o"></i></span>
+                <div class="info-box-content">
+                  <span class="info-box-text">商品数量</span>
+                  <span class="info-box-number">{$count.goods}</span>
+                </div>
+              </div>
+            </div>
+         </div>
+		
+		
+          
+
+           <div class="row">
+                <div class="col-md-12">
+                    <div class="box  box-success">
+				        <div class="box-body">
+				        	<div class="info-box">
+					         	<table class="table table-bordered">
+					         		<tr>
+					         			<td>程序版本：</td><td>TPshop {$sys_info.version}</td>
+					         			<td>更新时间：</td><td>2016-05-01</td>
+					         			<td>程序开发：</td><td>佰竹网络科技有限公司</td>			         			
+					         		</tr>
+					         		<tr>
+					         			<td>版权所有：</td><td>佰竹网络科技有限公司</td>
+					         			<td>官方授权：</td><td><a href="http://www.tp-shop.cn/" target="_blank">商业授权</a></td>
+					         			<td>官方论坛：</td><td><a href="http://www.tp-shop.cn/articleList_cat_id_31.html" target="_blank">TPshop交流论坛</a></td>
+					         		</tr>
+					         	</table>
+				         	</div>
+				        </div>
+                    </div>
+                </div>
+          </div>
+          <div class="callout callout-success">
+            <p> <b>TPshop</b>--( Thinkphp shop的简称 ) B2C 开源商城    包含(pc + wap + android + ios + 微商城)多终端 </p>
+          </div>
+     </section>
+ </div>
+ </body>
+ </html>
